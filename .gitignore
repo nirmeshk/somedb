@@ -1,0 +1,3 @@
+.coverage
+.tox/
+test/__pycache__/

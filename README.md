@@ -8,6 +8,12 @@ To achieve fault-tolerence, I will be implementing [Raft](https://pdos.csail.mit
 This exercise is intended for getting deeper understanding of distributed system protocals.
 NOT INTENDED FOR ANY PRODUCTION USE.
 
+## Development:
+I am using [tox](https://tox.readthedocs.io/en/latest/) to setup developer env for the project
+Install tox with `pip install tox`
+Run `tox` inside the project directory to setup all required dependencies and run unit test cases with coverage reports.
+For information regarding test dependencies, checkout [tox.ini](tox.ini) file
+
 ## References:
 1. MIT 6.824 Distributed systems course: https://pdos.csail.mit.edu/6.824/. 
 1. Raft extended paper: https://pdos.csail.mit.edu/6.824/papers/raft-extended.pdf
